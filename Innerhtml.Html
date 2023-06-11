@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myForm">  
+        <input type="button" value="Application form" onclick="showApplicationform()">  
+        <p id="demo"></p>  
+        </form> 
+        <script>
+     function showApplicationform() {  
+            var data="Name:<input type='text' name='name'><br/>Comment:<br> <textarea rows='5' cols='80'></textarea></br>Email:<br><input type='Email' id='email' name='email'/><br/>  <br><input type='submit' value='ok'>"; 
+
+            document.getElementById("demo").innerHTML=data;  
+            }   
+
+        </script>
+</body>
+</html>
